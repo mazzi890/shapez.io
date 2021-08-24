@@ -14,14 +14,14 @@ steamPage:
         Początkowo przekształcanie kształtów będzie proste, ale później będziesz również musiał je malować - wymaga to wydobywania i łączenia barwników!
 
         Kupienie gry w serwisie Steam przyznaje Ci dostęp do pełnej wersji, ale możesz również skorzystać z wersji demonstracyjnej na strone shapez.io i rozważyć zakup później!
-    what_others_say: What people say about shapez.io
-    nothernlion_comment: This game is great - I'm having a wonderful time playing,
-        and time has flown by.
-    notch_comment: Oh crap. I really should sleep, but I think I just figured out
-        how to make a computer in shapez.io
-    steam_review_comment: This game has stolen my life and I don't want it back.
-        Very chill factory game that won't let me stop making my lines more
-        efficient.
+    what_others_say: Co ludzie mówią o shapez.io
+    nothernlion_comment: To świetna gra - Wspaniale się bawię podczas rozgrywki
+        , a czas szybko leci.
+    notch_comment: O cholera. Naprawdę powinienem położyć się spać, ale myślę że właśnie odkryłem
+        jak stworzyć komputer w shapez.io
+    steam_review_comment: Ta gra ukradła mi życie, a ja nie chcę go z powrotem.
+        Bardzo spokojna gra o fabrykach, która nie chce mi pozwolić przestać tworzyć moje tory bardześ 
+        wydajniejszymi.
 global:
     loading: Ładowanie
     error: Wystąpił błąd
@@ -53,7 +53,7 @@ global:
         escape: ESC
         shift: SHIFT
         space: SPACJA
-    loggingIn: Logging in
+    loggingIn: Logowanie
 demoBanners:
     title: Wersja demonstracyjna
     intro: Kup pełną wersję gry, by odblokować więcej funkcji!
@@ -73,12 +73,12 @@ mainMenu:
     madeBy: Gra wykonana przez <author-link>
     subreddit: Reddit
     savegameUnnamed: Zapis bez nazwy
-    puzzleMode: Puzzle Mode
-    back: Back
-    puzzleDlcText: Do you enjoy compacting and optimizing factories? Get the Puzzle
-        DLC now on Steam for even more fun!
-    puzzleDlcWishlist: Wishlist now!
-    puzzleDlcViewNow: View Dlc
+    puzzleMode: Tryb Puzzle
+    back: Wstecz
+    puzzleDlcText: Czy lubisz zagęszczać i optymalizować swoje fabryki? Zdobądź Puzzle
+        DLC teraz na Steam dla jeszcze większej zabawy!
+    puzzleDlcWishlist: Dodaj do Listy Życzeń!
+    puzzleDlcViewNow: Zobacz Dlc
 dialogs:
     buttons:
         ok: OK
@@ -92,9 +92,9 @@ dialogs:
         viewUpdate: Zobacz aktualizację
         showUpgrades: Pokaż ulepszenia
         showKeybindings: Pokaż Klawiszologię
-        retry: Retry
-        continue: Continue
-        playOffline: Play Offline
+        retry: Spróbuj Ponownie
+        continue: Kontynuj
+        playOffline: Graj Offline
     importSavegameError:
         title: Błąd importowania
         text: "Nie udało się zaimportować twojego zapisu gry:"
@@ -200,42 +200,41 @@ dialogs:
     editConstantProducer:
         title: Set Item
     puzzleLoadFailed:
-        title: Puzzles failed to load
-        desc: "Unfortunately the puzzles could not be loaded:"
-    submitPuzzle:
-        title: Submit Puzzle
-        descName: "Give your puzzle a name:"
-        descIcon: "Please enter a unique short key, which will be shown as the icon of
-            your puzzle (You can generate them <link>here</link>, or choose one
-            of the randomly suggested shapes below):"
-        placeholderName: Puzzle Title
+        title: Nie udało się wczytać Puzzle
+        desc: "Niestety puzle nie mogą zostać załadowane:"
+    submitPuzle:
+        title: Potwierdź Puzle
+        descName: "Nazwij swoje puzle:"
+        descIcon: "Wprować unikalny krótki tekst, który zostanie wyświetlony jako ikona
+            twich puzli (możesz wygenerować je <link>tutaj</link>, albo wybrać jeden
+           z losowo  proponowanych kształtów poniżej):"
+        placeholderName: Tytuł puzli
     puzzleResizeBadBuildings:
-        title: Resize not possible
-        desc: You can't make the zone any smaller, because then some buildings would be
-            outside the zone.
+        title: Zmiana rozmiaru nie jest pożliwa
+        desc: Nie możesz sprawić by strafa była mniejsza, ponieważ wtedy nie które z budynków byłyby
+            poza strefą.
     puzzleLoadError:
-        title: Bad Puzzle
-        desc: "The puzzle failed to load:"
+        title: Złe Puzle
+        desc: "Nie udało się załadować puzli:"
     offlineMode:
-        title: Offline Mode
-        desc: We couldn't reach the servers, so the game has to run in offline mode.
-            Please make sure you have an active internet connection.
-    puzzleDownloadError:
-        title: Download Error
-        desc: "Failed to download the puzzle:"
+        title: Tryb Offline
+        desc: Nie mogliśmy połączyć się z serwerami, więc gra została uruchomiona w trybie offline.
+            Upewnij się, że masz aktywne połączenie z internetem.    puzzleDownloadError:
+        title: Błąd pobierania
+        desc: "Nie udało się pobrać puzli"
     puzzleSubmitError:
-        title: Submission Error
-        desc: "Failed to submit your puzzle:"
+        title: Błąd zgłoszenia
+        desc: "Nie udało się zgłosić twoich puzli:"
     puzzleSubmitOk:
-        title: Puzzle Published
-        desc: Congratulations! Your puzzle has been published and can now be played by
-            others. You can now find it in the "My puzzles" section.
+        title: Puzle zostały udostępnione
+        desc: Gratulacje! Twoje puzle zostały opublikowane i teraz innand can now be played by
+            others. Możesz je znaleźć w sekcji "Moje puzle".
     puzzleCreateOffline:
-        title: Offline Mode
-        desc: Since you are offline, you will not be able to save and/or publish your
-            puzzle. Would you still like to continue?
+        title: Tryb Offline
+        desc: W trakcie, gdy jesteś w trybie Offline, nie możesz zapisywać oraz/albo publikować twoich
+            puzli. Czy nadal chciałbyś kontynuować?
     puzzlePlayRegularRecommendation:
-        title: Recommendation
+        title: Rekomendacje
         desc: I <strong>strongly</strong> recommend playing the normal game to level 12
             before attempting the puzzle DLC, otherwise you may encounter
             mechanics not yet introduced. Do you still want to continue?
